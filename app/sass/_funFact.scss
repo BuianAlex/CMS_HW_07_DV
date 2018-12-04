@@ -1,0 +1,74 @@
+.funfact{
+  background-color: $bg-color;
+  margin-bottom: 10rem;
+}
+
+.facts{
+  @extend %space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem; 
+  flex-wrap: wrap;
+  
+  li{
+    width: 20%;
+    min-width: 300px;
+    position: relative;
+    padding-top: 130px;
+    text-align: center;
+    color: #212121;
+    
+    &:nth-child(1) .fact-icon{
+    
+        background-position: -0px -0px; width: 98px; height: 98px;
+      
+      
+    }
+    &:nth-child(2) .fact-icon{
+      background-position: -0px -98px; width: 77px; height: 77px; 
+    }
+    &:nth-child(3) .fact-icon{
+      background-position: -0px -257px; width: 64px; height: 74px; 
+    }
+    &:nth-child(4) .fact-icon{
+   
+        background-position: -0px -175px; width: 70px; height: 82px; 
+    
+      
+    }
+
+
+  }
+}
+.fact-icon{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background: url('./../img/funFact.png') no-repeat; 
+    overflow: hidden; 
+    text-indent: -9999px; 
+    text-align: left;
+  
+  
+
+}
+.icon-center-wraper{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 100px;
+  height: 100px;
+}
+.fact-num{
+  font-size: 30px; 
+  font-weight: 700;
+  line-height: 32px;
+
+}
+.fact-name{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+}

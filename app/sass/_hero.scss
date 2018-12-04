@@ -1,0 +1,60 @@
+.hero{
+  position: relative;
+  padding-top: 95px;
+  margin-top: -83px;
+  height: 100vh;
+  overflow: hidden;
+  @extend %space-between;
+  background-image: repeating-linear-gradient(
+                      110deg, #e1e1e1 0%,  #e1e1e1 10%, #dedddd 10%, #dedddd 24%, );
+  button{
+    margin: 0 1rem 1rem 0;
+    width: 160px;
+    height: 50px;
+  }                    
+}
+.content-wraper{
+  position: relative;
+  height:auto;
+  width: 600px;
+  
+}
+.hero-content{
+  position: absolute;
+  left: 0px;
+  top:23%;
+  width: 100%;
+  h1{
+    font-size: 90px;
+    font-weight: 500;
+    margin-left: -7px;
+    margin-bottom: 1.5rem;
+  }
+  span{
+  display: block;
+    opacity: 0.54;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2rem;
+    margin: 0rem  0 1rem 6px;
+    
+  }
+}
+.btn-down{
+  display: block;
+  text-align: center;
+  line-height: 45px;
+  position: absolute;
+  z-index: 99;
+  width: 45px;
+  height: 41px;
+  left: 100px;
+  bottom: 100px;
+  box-shadow: 0 10px 27px 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  color: #4d4d4d;
+  &:hover{
+    box-shadow: 0 0 5px 1px  #4d4d4d;
+  }
+
+}

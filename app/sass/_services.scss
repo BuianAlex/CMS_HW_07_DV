@@ -1,0 +1,58 @@
+.services{
+  background-color: $bg-color;
+  padding-bottom: 2.3rem; 
+}
+.features-list{
+  
+  @extend %space-between;
+  flex-wrap: wrap;
+
+}
+.features-item{
+  position: relative;
+  width: 33%;
+  min-width: 300px;
+  padding-top: 90px;
+  text-align: center;
+  margin-bottom: 5rem;
+  &:nth-child(1) .features-icon{
+    background-position: -0px -75px; 
+    width: 77px; 
+    height: 77px;
+  }
+  &:nth-child(2) .features-icon{
+    background-position: -0px -152px; width: 76px; height: 62px;
+  }
+  &:nth-child(3) .features-icon{
+    background-position: -0px -290px; width: 67px; height: 75px;
+  }
+  &:nth-child(4) .features-icon{
+    background-position: -0px -0px; width: 90px; height: 75px;
+  }  
+  &:nth-child(5) .features-icon{
+    background-position: -0px -365px; width: 57px; height: 81px;
+  }
+  &:nth-child(6) .features-icon{
+    background-position: -0px -214px; width: 76px; height: 76px;
+  }
+  h3{
+    max-width: 220px;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+}
+.features-icon{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: url('./../img/all-features.png') no-repeat; 
+  overflow: hidden; 
+  text-indent: -9999px; 
+  text-align: left;
+  
+}

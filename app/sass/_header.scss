@@ -1,0 +1,41 @@
+.main-header{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 1.6rem;
+  z-index: 999;
+
+  background-color: transparent;
+  
+}
+
+.logo{
+  height: 55px;
+}
+.main-nav{
+  height: auto;
+
+  li{
+    display: inline-block;
+    margin-right: 2.1rem;
+  &:last-of-type{
+      margin: 0;
+    }   
+  }
+ 
+  a{
+    color: #4d4d4d;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
+    &:hover{
+      border-color: rgba(77, 77, 77,.6);      
+    }
+  }
+  .active{
+    border-color: rgba(77, 77, 77,.6);
+  }
+
+}
+
