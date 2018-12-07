@@ -11,26 +11,50 @@
   background-color: #333333;
   font-size: 32px;
   margin: 10px -15px 0; }
-
-.navbar-custom .nav-item {
-  padding: 20px 0; }
+  @media (min-width: 576px) {
+    .navbar-custom .navbar-collapse {
+      margin: 0; } }
 
 .navbar-custom .nav-link {
   line-height: 2rem;
   color: #fff;
   font-family: "Montserrat";
-  padding-left: 1rem; }
+  padding-left: 2rem;
+  text-align: left; }
   .navbar-custom .nav-link:hover {
     color: #8d81ab; }
+  @media (min-width: 576px) {
+    .navbar-custom .nav-link {
+      line-height: normal;
+      text-align: center;
+      font-size: 1rem;
+      margin: 0 0rem;
+      padding: 0;
+      color: #635c73;
+      font-weight: bold; } }
+  @media (min-width: 992px) {
+    .navbar-custom .nav-link {
+      margin: 0 1rem; } }
 
 .navbar-custom .active .nav-link {
   color: #858585; }
 
+.navbar-custom .btn-custom {
+  width: 150px;
+  height: 48px;
+  font-size: 1.1rem;
+  line-height: 15px; }
+  @media (min-width: 576px) {
+    .navbar-custom .btn-custom {
+      width: 145px;
+      height: 38px;
+      -webkit-border-radius: 19px;
+              border-radius: 19px;
+      font-size: 1rem;
+      margin-left: 1rem; } }
+
 @media (min-width: 576px) {
   .navbar-custom .nav-link {
-    line-height: 2rem;
-    color: #000;
-    font-family: "Montserrat";
     padding-left: 0rem; }
     .navbar-custom .nav-link:hover {
       color: #8d81ab; }
@@ -39,21 +63,7 @@
     color: #000; }
   .navbar-custom .navbar-collapse {
     background-color: #ffff;
-    font-size: 32px;
-    margin: 10px -15px 0; } }
-
-.btn-custom {
-  width: 150px;
-  height: 48px;
-  -webkit-border-radius: 24px;
-          border-radius: 24px;
-  background-color: #8d81ac;
-  font-size: 17px;
-  line-height: 15px;
-  color: #ffffff;
-  font-family: "Montserrat";
-  font-weight: bold;
-  text-align: center; }
+    font-size: 32px; } }
 
 .navbar-brand {
   font-size: 24px;
@@ -63,3 +73,24 @@
 
 .purp {
   color: #8d81ac; }
+
+body {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto; }
+
+.bd-highlight {
+  border: 1px solid #000; }
+
+.cod-view {
+  height: 300px; }
+
+.btn-custom {
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+  background-color: #8d81ac;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  line-height: 15px; }
