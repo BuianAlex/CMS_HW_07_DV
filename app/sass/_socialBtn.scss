@@ -1,0 +1,51 @@
+.social-btn-group{
+    margin: 0 auto;
+    .btn{
+        min-width: 240px;
+        height: 50px;
+        line-height: 32px;
+        text-align: center;
+        position: relative; 
+        margin: 0 1rem 5rem;    
+    }
+    .fab{
+            position: absolute;
+            top:50%;
+            left:20px;
+            transform: translateY(-50%);
+        }
+    .aiditional{
+            position: absolute;
+            bottom: -3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.9rem;
+            line-height: 32px;
+            color: #848e97;
+            text-align: center;
+    }
+}
+.btn-github{
+    background-color: #f3f3f3;
+    color: #000000;
+    &:hover{
+        color: #00000085;
+        background-color: #f3f3f380;
+    }
+}
+.btn-twitter{  
+    background-color: #26a6d1;
+    color: #fff;
+    &:hover{
+        color: #fff;
+        background-color: #26a6d175;
+    }
+}
+.btn-facebook{
+    color: #fff;
+    background-color: #3b5998;
+    &:hover{
+        color: #fff;
+        background-color: #3b589879;
+    }
+}

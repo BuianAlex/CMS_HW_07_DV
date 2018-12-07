@@ -1,0 +1,59 @@
+.testimonials{
+    background-image: url('./../img/Layer11.png');
+    background-color: #4b3b4d;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    h2{
+        font-size: 3rem;
+        line-height: 250px;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        width: 95%;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: "Source Sans Pro";
+        font-weight: 700;
+    }
+    &-logo{
+        width: 70%;
+       
+        margin: 0 auto 2rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain ;
+    }
+    li{
+        margin-bottom: 2rem;
+    }
+    li:nth-child(1) .testimonials-logo{ 
+        height: 62px;
+        background-image: url('./../img/smashing.png');
+    }
+    li:nth-child(2) .testimonials-logo{
+        height: 62px;
+        background-image: url('./../img/codrops.png');
+    }
+    li:nth-child(3) .testimonials-logo{
+        height: 62px;
+        background-image: url('./../img/bw.png');
+    }
+    li:nth-child(4) .testimonials-logo{
+        height: 35px;
+        background-image: url('./../img/buddha.png');
+    }
+    li:nth-child(5) .testimonials-logo{
+        height: 35px;
+        background-image: url('./../img/creative.png');
+    }
+    li:nth-child(6) .testimonials-logo{
+        height: 35px;
+        background-image: url('./../img/twn.png');
+    }
+}
