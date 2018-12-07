@@ -1,0 +1,56 @@
+.welcome{
+  position: relative;
+  background-image: url('./../img/img-welcome.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 760px;  
+}
+.slide-bottom{
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  bottom: 0;
+  text-align: center;
+  transform: translate(-50%, 75%);
+  .btn-custom{      
+      width: 82%;
+      height: 3.5rem;
+      @media (min-width: 576px) { 
+        width: 30%;
+      }
+    }
+  p{
+    color: #848e97;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+  }  
+}
+.welcome-text{
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 25%);
+  text-align: center;
+  h1{
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+  } 
+}
+.caption-first{
+  color: #8d81ac;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+
+}
+.caption-second{
+  color: #848e97;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+}

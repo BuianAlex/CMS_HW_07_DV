@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "app/sass/header";
 body{
     width: 100%;
@@ -24,3 +25,39 @@ body{
     text-align: center;
     line-height: 15px;
 }
+=======
+@import "app/sass/fonts";
+@import "app/sass/header";
+@import "app/sass/welcome";
+@import "app/sass/welcome_2";
+@import "app/sass/features";
+@import "app/sass/social";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.container{
+
+
+  
+  
+}
+li{
+    list-style: none;}
+
+.btn-custom{
+    border-radius: 24px;
+    background-color: #8d81ac;
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 32px;
+    overflow: hidden;
+}
+.btn-custom:hover{
+  background-color: #858585;
+}
+>>>>>>> f9795b2ca2aab66877ffef8faca56a3bdc2a239b
